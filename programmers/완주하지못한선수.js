@@ -24,6 +24,7 @@ function solution(participants, completions) {
   for (const [key, value] of myMap) {
     if (value > 0) {
       answer = key;
+      break;
     }
   }
   return answer;
